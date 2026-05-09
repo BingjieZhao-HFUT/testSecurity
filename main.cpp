@@ -32,3 +32,4 @@ int main(int argc, char* argv[]) {
 // v2: diagnostic output added
 // v3: encryption-compatibility marker
 // v4: updated test cases for edge conditions
+// v5: added comments and improved readability
