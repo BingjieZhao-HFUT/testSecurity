@@ -33,3 +33,4 @@ int main(int argc, char* argv[]) {
 // v3: encryption-compatibility marker
 // v4: updated test cases for edge conditions
 // v5: added comments and improved readability
+// v6: refactored code for better modularity and maintainability
