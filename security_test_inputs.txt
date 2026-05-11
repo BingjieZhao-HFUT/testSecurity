@@ -1,0 +1,19 @@
+# Security test payload samples (for local testing only)
+
+# SQL injection style inputs
+' OR '1'='1
+admin' --
+' UNION SELECT null, version() --
+
+# XSS style inputs
+<script>alert('xss')</script>
+<img src=x onerror=alert(1)>
+
+# Path traversal style inputs
+../../../../windows/system32/drivers/etc/hosts
+..\\..\\..\\windows\\win.ini
+
+# Command injection style inputs
+hello && whoami
+hello | powershell -c "Get-ChildItem"
+hello; dir
