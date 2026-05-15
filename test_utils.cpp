@@ -42,3 +42,4 @@ int main() {
 // v2: added more test cases for edge conditions
 // v3: refactored code for better readability and maintainability
 // v4: added comments and documentation for utility functions
+// v5: optimized trim function using iterators and lambda functions
